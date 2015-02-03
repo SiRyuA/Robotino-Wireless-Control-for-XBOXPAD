@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model type="state" mode="0" sortIndex="0" size0="272" size1="340" datatips="1" gridspace="2" grid="1" sizex="2000" sizey="2000">
+  <info></info>
+  <node id="1" maintype="6" subtype="0" identifier="" active="1">
+    <name>Speed(N)</name>
+    <param name="row">0</param>
+    <param name="value">1</param>
+    <workspace>
+      <position x="30" y="270"/>
+    </workspace>
+    <slots nleft="0" nright="1" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="2" maintype="6" subtype="0" identifier="" active="1">
+    <name>Speed(A)</name>
+    <param name="row">0</param>
+    <param name="value">5</param>
+    <workspace>
+      <position x="30" y="318"/>
+    </workspace>
+    <slots nleft="0" nright="1" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="3" maintype="9" subtype="0" identifier="" active="1">
+    <name>Joystick (11)</name>
+    <param name="joyNumber">0</param>
+    <param name="n0">0</param>
+    <param name="n1">1</param>
+    <param name="n2">2</param>
+    <param name="n3">4</param>
+    <param name="n4">5</param>
+    <param name="t0">0</param>
+    <param name="t1">0</param>
+    <param name="t2">0</param>
+    <param name="t3">1</param>
+    <param name="t4">1</param>
+    <workspace>
+      <position x="48" y="120"/>
+      <dialog x="740" y="60" width="140" height="180"/>
+    </workspace>
+    <slots nleft="2" nright="5" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c2 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c3 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c4 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="4" maintype="9" subtype="0" identifier="" active="1">
+    <name>Joystick (19)</name>
+    <param name="joyNumber">0</param>
+    <param name="n0">0</param>
+    <param name="n1">1</param>
+    <param name="n2">2</param>
+    <param name="n3">3</param>
+    <param name="n4">6</param>
+    <param name="t0">1</param>
+    <param name="t1">1</param>
+    <param name="t2">1</param>
+    <param name="t3">1</param>
+    <param name="t4">1</param>
+    <workspace>
+      <position x="48" y="378"/>
+      <dialog x="0" y="0" width="140" height="180"/>
+    </workspace>
+    <slots nleft="2" nright="5" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c2 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c3 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c4 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="5" maintype="6" subtype="0" identifier="" active="1">
+    <name>MoveSelect(F)</name>
+    <param name="row">0</param>
+    <param name="value">1</param>
+    <workspace>
+      <position x="48" y="570"/>
+    </workspace>
+    <slots nleft="0" nright="1" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="6" maintype="6" subtype="0" identifier="" active="1">
+    <name>MoveSelect(B)</name>
+    <param name="row">0</param>
+    <param name="value">-1</param>
+    <workspace>
+      <position x="48" y="618"/>
+    </workspace>
+    <slots nleft="0" nright="1" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="7" maintype="36" subtype="0" identifier="" active="1">
+    <name>Power Management (60)</name>
+    <workspace>
+      <position x="108" y="24"/>
+    </workspace>
+    <slots nleft="0" nright="2" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c1 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="8" maintype="26" subtype="0" identifier="" active="1">
+    <name>X</name>
+    <param name="count">4</param>
+    <param name="x0">-300</param>
+    <param name="x1">-100</param>
+    <param name="x2">100</param>
+    <param name="x3">300</param>
+    <param name="xmax">900</param>
+    <param name="xmin">-900</param>
+    <param name="y0">-300</param>
+    <param name="y1">0</param>
+    <param name="y2">0</param>
+    <param name="y3">300</param>
+    <param name="ymax">1000</param>
+    <param name="ymin">-1000</param>
+    <workspace>
+      <position x="156" y="96"/>
+      <dialog x="560" y="140" width="460" height="200"/>
+    </workspace>
+    <slots nleft="1" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="9" maintype="26" subtype="0" identifier="" active="1">
+    <name>Y</name>
+    <param name="count">4</param>
+    <param name="x0">-300</param>
+    <param name="x1">-100</param>
+    <param name="x2">100</param>
+    <param name="x3">300</param>
+    <param name="xmax">900</param>
+    <param name="xmin">-900</param>
+    <param name="y0">-300</param>
+    <param name="y1">0</param>
+    <param name="y2">0</param>
+    <param name="y3">300</param>
+    <param name="ymax">1000</param>
+    <param name="ymin">-1000</param>
+    <workspace>
+      <position x="156" y="144"/>
+      <dialog x="560" y="0" width="460" height="200"/>
+    </workspace>
+    <slots nleft="1" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="10" maintype="26" subtype="0" identifier="" active="1">
+    <name>R</name>
+    <param name="count">4</param>
+    <param name="x0">-900</param>
+    <param name="x1">-10</param>
+    <param name="x2">10</param>
+    <param name="x3">900</param>
+    <param name="xmax">900</param>
+    <param name="xmin">-900</param>
+    <param name="y0">75</param>
+    <param name="y1">0</param>
+    <param name="y2">0</param>
+    <param name="y3">-75</param>
+    <param name="ymax">900</param>
+    <param name="ymin">-900</param>
+    <workspace>
+      <position x="156" y="192"/>
+      <dialog x="560" y="320" width="460" height="200"/>
+    </workspace>
+    <slots nleft="1" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="11" maintype="31" subtype="0" identifier="" active="1">
+    <name>Value-Demultiplexer (50)</name>
+    <workspace>
+      <position x="156" y="504"/>
+    </workspace>
+    <slots nleft="3" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c2 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="12" maintype="31" subtype="0" identifier="" active="1">
+    <name>Value-Demultiplexer (31)</name>
+    <workspace>
+      <position x="180" y="270"/>
+    </workspace>
+    <slots nleft="3" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c2 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="13" maintype="19" subtype="0" identifier="" active="1">
+    <name>Distance (72)</name>
+    <param name="distance">5</param>
+    <workspace>
+      <position x="216" y="24"/>
+    </workspace>
+    <slots nleft="0" nright="2" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c1 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="14" maintype="20" subtype="2" identifier="" active="1">
+    <name>Multiplication (29)</name>
+    <workspace>
+      <position x="264" y="102"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="15" maintype="20" subtype="2" identifier="" active="1">
+    <name>Multiplication (32)</name>
+    <workspace>
+      <position x="264" y="150"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="16" maintype="20" subtype="2" identifier="" active="1">
+    <name>Multiplication (33)</name>
+    <workspace>
+      <position x="264" y="198"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="17" maintype="40" subtype="0" identifier="" active="1">
+    <name>NOT (36)</name>
+    <workspace>
+      <position x="264" y="366"/>
+    </workspace>
+    <slots nleft="1" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="18" maintype="40" subtype="0" identifier="" active="1">
+    <name>NOT (46)</name>
+    <workspace>
+      <position x="264" y="408"/>
+    </workspace>
+    <slots nleft="1" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="19" maintype="4" subtype="0" identifier="" active="1">
+    <name>Bumper (28)</name>
+    <workspace>
+      <position x="264" y="600"/>
+    </workspace>
+    <slots nleft="0" nright="1" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="20" maintype="19" subtype="0" identifier="" active="1">
+    <name>Distance (73)</name>
+    <param name="distance">4</param>
+    <workspace>
+      <position x="312" y="24"/>
+    </workspace>
+    <slots nleft="0" nright="2" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c1 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="21" maintype="20" subtype="2" identifier="" active="1">
+    <name>Multiplication (37)</name>
+    <workspace>
+      <position x="372" y="108"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="22" maintype="20" subtype="2" identifier="" active="1">
+    <name>Multiplication (38)</name>
+    <workspace>
+      <position x="372" y="156"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="23" maintype="20" subtype="2" identifier="" active="1">
+    <name>Multiplication (39)</name>
+    <workspace>
+      <position x="372" y="204"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="24" maintype="20" subtype="2" identifier="" active="1">
+    <name>Multiplication (45)</name>
+    <workspace>
+      <position x="372" y="414"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="25" maintype="40" subtype="0" identifier="" active="1">
+    <name>NOT (40)</name>
+    <workspace>
+      <position x="372" y="600"/>
+    </workspace>
+    <slots nleft="1" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="26" maintype="19" subtype="0" identifier="" active="1">
+    <name>Distance (66)</name>
+    <param name="distance">3</param>
+    <workspace>
+      <position x="408" y="24"/>
+    </workspace>
+    <slots nleft="0" nright="2" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c1 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="27" maintype="20" subtype="2" identifier="" active="1">
+    <name>Multiplication (51)</name>
+    <workspace>
+      <position x="480" y="114"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="28" maintype="20" subtype="2" identifier="" active="1">
+    <name>Multiplication (52)</name>
+    <workspace>
+      <position x="480" y="162"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="29" maintype="20" subtype="2" identifier="" active="1">
+    <name>Multiplication (53)</name>
+    <workspace>
+      <position x="480" y="210"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="30" maintype="41" subtype="0" identifier="" active="1">
+    <name>Time (41)</name>
+    <workspace>
+      <position x="480" y="600"/>
+    </workspace>
+    <slots nleft="1" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="2" a="0.001" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="31" maintype="6" subtype="0" identifier="" active="1">
+    <name>Timelimit(B)</name>
+    <param name="row">0</param>
+    <param name="value">5</param>
+    <workspace>
+      <position x="480" y="636"/>
+    </workspace>
+    <slots nleft="0" nright="1" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="32" maintype="19" subtype="0" identifier="" active="1">
+    <name>Distance (64)</name>
+    <param name="distance">2</param>
+    <workspace>
+      <position x="504" y="24"/>
+    </workspace>
+    <slots nleft="0" nright="2" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c1 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="33" maintype="41" subtype="0" identifier="" active="1">
+    <name>Time (41)</name>
+    <workspace>
+      <position x="552" y="702"/>
+    </workspace>
+    <slots nleft="1" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="2" a="0.001" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="34" maintype="6" subtype="0" identifier="" active="1">
+    <name>Timelimit(A)</name>
+    <param name="row">0</param>
+    <param name="value">6000</param>
+    <workspace>
+      <position x="552" y="738"/>
+    </workspace>
+    <slots nleft="0" nright="1" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="35" maintype="16" subtype="0" identifier="" active="1">
+    <name>Greater (42)</name>
+    <workspace>
+      <position x="588" y="606"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="36" maintype="6" subtype="0" identifier="" active="1">
+    <name>Error</name>
+    <param name="row">0</param>
+    <param name="value">0</param>
+    <workspace>
+      <position x="588" y="654"/>
+    </workspace>
+    <slots nleft="0" nright="1" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="37" maintype="19" subtype="0" identifier="" active="1">
+    <name>Distance (62)</name>
+    <param name="distance">1</param>
+    <workspace>
+      <position x="600" y="24"/>
+    </workspace>
+    <slots nleft="0" nright="2" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c1 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="38" maintype="18" subtype="0" identifier="" active="1">
+    <name>Omnidrive</name>
+    <workspace>
+      <position x="612" y="126"/>
+    </workspace>
+    <slots nleft="3" nright="3" ntop="3" nbottom="3">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c2 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c2 func="0" a="0" b="0" c="0" d="0"/>
+      <s3c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s3c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s3c2 func="0" a="0" b="0" c="0" d="0"/>
+      <s4c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s4c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s4c2 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="39" maintype="16" subtype="0" identifier="" active="1">
+    <name>Greater (42)</name>
+    <workspace>
+      <position x="660" y="708"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="40" maintype="19" subtype="0" identifier="" active="1">
+    <name>Distance (63)</name>
+    <param name="distance">9</param>
+    <workspace>
+      <position x="696" y="24"/>
+    </workspace>
+    <slots nleft="0" nright="2" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c1 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="41" maintype="49" subtype="0" identifier="" active="1">
+    <name>OR (47)</name>
+    <workspace>
+      <position x="696" y="612"/>
+    </workspace>
+    <slots nleft="4" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c2 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c3 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="42" maintype="27" subtype="0" identifier="" active="1">
+    <name>Smooth (47)</name>
+    <param name="depth">50</param>
+    <workspace>
+      <position x="744" y="114"/>
+      <dialog x="460" y="300" width="140" height="60"/>
+    </workspace>
+    <slots nleft="1" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="43" maintype="27" subtype="0" identifier="" active="1">
+    <name>Smooth (48)</name>
+    <param name="depth">54</param>
+    <workspace>
+      <position x="744" y="192"/>
+    </workspace>
+    <slots nleft="1" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="44" maintype="27" subtype="0" identifier="" active="1">
+    <name>Smooth (49)</name>
+    <param name="depth">50</param>
+    <workspace>
+      <position x="744" y="258"/>
+      <dialog x="440" y="260" width="140" height="60"/>
+    </workspace>
+    <slots nleft="1" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="45" maintype="40" subtype="0" identifier="" active="1">
+    <name>NOT (48)</name>
+    <workspace>
+      <position x="744" y="318"/>
+    </workspace>
+    <slots nleft="1" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="46" maintype="40" subtype="0" identifier="" active="1">
+    <name>NOT (49)</name>
+    <workspace>
+      <position x="744" y="348"/>
+    </workspace>
+    <slots nleft="1" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="47" maintype="19" subtype="0" identifier="" active="1">
+    <name>Distance (65)</name>
+    <param name="distance">8</param>
+    <workspace>
+      <position x="792" y="24"/>
+    </workspace>
+    <slots nleft="0" nright="2" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c1 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="48" maintype="8" subtype="1" identifier="" active="1">
+    <name>Exit B (44)</name>
+    <workspace>
+      <position x="804" y="612"/>
+    </workspace>
+    <slots nleft="1" nright="0" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="49" maintype="20" subtype="2" identifier="" active="1">
+    <name>Multiplication (37)</name>
+    <workspace>
+      <position x="864" y="120"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="50" maintype="20" subtype="2" identifier="" active="1">
+    <name>Multiplication (38)</name>
+    <workspace>
+      <position x="864" y="198"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="51" maintype="20" subtype="2" identifier="" active="1">
+    <name>Multiplication (39)</name>
+    <workspace>
+      <position x="864" y="264"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="52" maintype="19" subtype="0" identifier="" active="1">
+    <name>Distance (67)</name>
+    <param name="distance">7</param>
+    <workspace>
+      <position x="888" y="24"/>
+    </workspace>
+    <slots nleft="0" nright="2" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c1 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="53" maintype="19" subtype="0" identifier="" active="1">
+    <name>Distance (69)</name>
+    <param name="distance">6</param>
+    <workspace>
+      <position x="984" y="24"/>
+    </workspace>
+    <slots nleft="0" nright="2" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c1 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="54" maintype="20" subtype="2" identifier="" active="1">
+    <name>Multiplication (46)</name>
+    <workspace>
+      <position x="1020" y="126"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="55" maintype="20" subtype="2" identifier="" active="1">
+    <name>Multiplication (47)</name>
+    <workspace>
+      <position x="1020" y="270"/>
+    </workspace>
+    <slots nleft="2" nright="1" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="56" maintype="14" subtype="0" identifier="" active="1">
+    <name>Motor1</name>
+    <param name="brake">0</param>
+    <param name="kd">0</param>
+    <param name="ki">0.0196078</param>
+    <param name="kp">0.905882</param>
+    <param name="motor">1</param>
+    <param name="resetOnStart">0</param>
+    <workspace>
+      <position x="1128" y="144"/>
+    </workspace>
+    <slots nleft="4" nright="3" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c2 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c3 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c2 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="57" maintype="14" subtype="0" identifier="" active="1">
+    <name>Motor2</name>
+    <param name="brake">0</param>
+    <param name="kd">0</param>
+    <param name="ki">0.0196078</param>
+    <param name="kp">0.905882</param>
+    <param name="motor">2</param>
+    <param name="resetOnStart">0</param>
+    <workspace>
+      <position x="1128" y="216"/>
+    </workspace>
+    <slots nleft="4" nright="3" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c2 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c3 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c2 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="58" maintype="14" subtype="0" identifier="" active="1">
+    <name>Motor3</name>
+    <param name="brake">0</param>
+    <param name="kd">0</param>
+    <param name="ki">0.0196078</param>
+    <param name="kp">0.905882</param>
+    <param name="motor">3</param>
+    <param name="resetOnStart">0</param>
+    <workspace>
+      <position x="1128" y="288"/>
+    </workspace>
+    <slots nleft="4" nright="3" ntop="0" nbottom="0">
+      <s1c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c2 func="0" a="0" b="0" c="0" d="0"/>
+      <s1c3 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c1 func="0" a="0" b="0" c="0" d="0"/>
+      <s2c2 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <node id="59" maintype="10" subtype="0" identifier="" active="1">
+    <name>Camera (68)</name>
+    <param name="colorFormat">0</param>
+    <param name="imageQuality">0</param>
+    <param name="imageSize">1</param>
+    <workspace>
+      <position x="24" y="24"/>
+      <dialog x="0" y="0" width="600" height="440"/>
+    </workspace>
+    <slots nleft="0" nright="1" ntop="0" nbottom="0">
+      <s2c0 func="0" a="0" b="0" c="0" d="0"/>
+    </slots>
+  </node>
+  <net id="1">
+    <slot nodeid="8" channel="0" position="1" id="1"/>
+    <slot nodeid="3" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="2">
+    <slot nodeid="10" channel="0" position="1" id="3"/>
+    <slot nodeid="3" channel="2" position="2" id="4"/>
+    <point x="114" y="120" id="1"/>
+    <point x="114" y="192" id="2"/>
+    <line startid="4" endid="1"/>
+    <line startid="1" endid="2"/>
+    <line startid="2" endid="3"/>
+  </net>
+  <net id="3">
+    <slot nodeid="42" channel="0" position="1" id="1"/>
+    <slot nodeid="38" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="4">
+    <slot nodeid="43" channel="0" position="1" id="3"/>
+    <slot nodeid="38" channel="1" position="2" id="4"/>
+    <point x="696" y="126" id="1"/>
+    <point x="696" y="192" id="2"/>
+    <line startid="3" endid="2"/>
+    <line startid="1" endid="4"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="5">
+    <slot nodeid="44" channel="0" position="1" id="3"/>
+    <slot nodeid="38" channel="2" position="2" id="4"/>
+    <point x="672" y="138" id="1"/>
+    <point x="672" y="258" id="2"/>
+    <line startid="3" endid="2"/>
+    <line startid="1" endid="4"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="6">
+    <slot nodeid="9" channel="0" position="1" id="3"/>
+    <slot nodeid="3" channel="1" position="2" id="4"/>
+    <point x="126" y="108" id="1"/>
+    <point x="126" y="144" id="2"/>
+    <line startid="4" endid="1"/>
+    <line startid="1" endid="2"/>
+    <line startid="2" endid="3"/>
+  </net>
+  <net id="7">
+    <slot nodeid="12" channel="0" position="1" id="2"/>
+    <slot nodeid="4" channel="0" position="2" id="3"/>
+    <point x="66" y="258" id="1"/>
+    <line startid="2" endid="1"/>
+    <line startid="1" endid="3"/>
+  </net>
+  <net id="8">
+    <slot nodeid="16" channel="0" position="1" id="1"/>
+    <slot nodeid="10" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="9">
+    <slot nodeid="15" channel="0" position="1" id="1"/>
+    <slot nodeid="9" channel="0" position="2" id="2"/>
+    <line startid="1" endid="2"/>
+  </net>
+  <net id="10">
+    <slot nodeid="14" channel="0" position="1" id="1"/>
+    <slot nodeid="8" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="11">
+    <slot nodeid="14" channel="1" position="1" id="5"/>
+    <slot nodeid="15" channel="1" position="1" id="6"/>
+    <slot nodeid="16" channel="1" position="1" id="7"/>
+    <slot nodeid="12" channel="0" position="2" id="8"/>
+    <point x="222" y="270" id="1"/>
+    <point x="222" y="204" id="2"/>
+    <point x="222" y="156" id="3"/>
+    <point x="222" y="108" id="4"/>
+    <line startid="8" endid="1"/>
+    <line startid="1" endid="2"/>
+    <line startid="2" endid="3"/>
+    <line startid="3" endid="4"/>
+    <line startid="4" endid="5"/>
+    <line startid="6" endid="3"/>
+    <line startid="7" endid="2"/>
+  </net>
+  <net id="12">
+    <slot nodeid="12" channel="1" position="1" id="1"/>
+    <slot nodeid="1" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="13">
+    <slot nodeid="12" channel="2" position="1" id="2"/>
+    <slot nodeid="2" channel="0" position="2" id="3"/>
+    <point x="162" y="318" id="1"/>
+    <line startid="3" endid="1"/>
+    <line startid="1" endid="2"/>
+  </net>
+  <net id="14">
+    <slot nodeid="49" channel="1" position="1" id="9"/>
+    <slot nodeid="50" channel="1" position="1" id="10"/>
+    <slot nodeid="51" channel="1" position="1" id="11"/>
+    <slot nodeid="23" channel="1" position="1" id="12"/>
+    <slot nodeid="22" channel="1" position="1" id="13"/>
+    <slot nodeid="21" channel="1" position="1" id="14"/>
+    <slot nodeid="17" channel="0" position="2" id="15"/>
+    <point x="828" y="126" id="1"/>
+    <point x="828" y="204" id="2"/>
+    <point x="828" y="270" id="3"/>
+    <point x="828" y="366" id="4"/>
+    <point x="318" y="366" id="5"/>
+    <point x="318" y="210" id="6"/>
+    <point x="318" y="162" id="7"/>
+    <point x="318" y="114" id="8"/>
+    <line startid="15" endid="5"/>
+    <line startid="1" endid="9"/>
+    <line startid="2" endid="1"/>
+    <line startid="10" endid="2"/>
+    <line startid="3" endid="2"/>
+    <line startid="11" endid="3"/>
+    <line startid="4" endid="3"/>
+    <line startid="5" endid="4"/>
+    <line startid="5" endid="6"/>
+    <line startid="6" endid="12"/>
+    <line startid="13" endid="7"/>
+    <line startid="7" endid="6"/>
+    <line startid="14" endid="8"/>
+    <line startid="8" endid="7"/>
+  </net>
+  <net id="15">
+    <slot nodeid="25" channel="0" position="1" id="3"/>
+    <slot nodeid="24" channel="1" position="1" id="4"/>
+    <slot nodeid="19" channel="0" position="2" id="5"/>
+    <point x="318" y="600" id="1"/>
+    <point x="318" y="420" id="2"/>
+    <line startid="5" endid="1"/>
+    <line startid="1" endid="3"/>
+    <line startid="1" endid="2"/>
+    <line startid="2" endid="4"/>
+  </net>
+  <net id="16">
+    <slot nodeid="30" channel="0" position="1" id="1"/>
+    <slot nodeid="25" channel="0" position="2" id="2"/>
+    <line startid="1" endid="2"/>
+  </net>
+  <net id="17">
+    <slot nodeid="35" channel="0" position="1" id="1"/>
+    <slot nodeid="30" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="18">
+    <slot nodeid="35" channel="1" position="1" id="2"/>
+    <slot nodeid="31" channel="0" position="2" id="3"/>
+    <point x="570" y="636" id="1"/>
+    <line startid="3" endid="1"/>
+    <line startid="1" endid="2"/>
+  </net>
+  <net id="19">
+    <slot nodeid="18" channel="0" position="1" id="3"/>
+    <slot nodeid="4" channel="3" position="2" id="4"/>
+    <point x="222" y="390" id="1"/>
+    <point x="222" y="408" id="2"/>
+    <line startid="4" endid="1"/>
+    <line startid="1" endid="2"/>
+    <line startid="2" endid="3"/>
+  </net>
+  <net id="20">
+    <slot nodeid="24" channel="0" position="1" id="1"/>
+    <slot nodeid="18" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="21">
+    <slot nodeid="48" channel="0" position="1" id="1"/>
+    <slot nodeid="41" channel="0" position="2" id="2"/>
+    <line startid="1" endid="2"/>
+  </net>
+  <net id="22">
+    <slot nodeid="58" channel="3" position="1" id="5"/>
+    <slot nodeid="57" channel="3" position="1" id="6"/>
+    <slot nodeid="56" channel="3" position="1" id="7"/>
+    <slot nodeid="24" channel="0" position="2" id="8"/>
+    <point x="1074" y="414" id="1"/>
+    <point x="1074" y="306" id="2"/>
+    <point x="1074" y="234" id="3"/>
+    <point x="1074" y="162" id="4"/>
+    <line startid="8" endid="1"/>
+    <line startid="1" endid="2"/>
+    <line startid="2" endid="5"/>
+    <line startid="6" endid="3"/>
+    <line startid="3" endid="2"/>
+    <line startid="7" endid="4"/>
+    <line startid="4" endid="3"/>
+  </net>
+  <net id="23">
+    <slot nodeid="39" channel="0" position="1" id="1"/>
+    <slot nodeid="33" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="24">
+    <slot nodeid="39" channel="1" position="1" id="2"/>
+    <slot nodeid="34" channel="0" position="2" id="3"/>
+    <point x="642" y="738" id="1"/>
+    <line startid="3" endid="1"/>
+    <line startid="1" endid="2"/>
+  </net>
+  <net id="25">
+    <slot nodeid="17" channel="0" position="1" id="1"/>
+    <slot nodeid="4" channel="1" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="26">
+    <slot nodeid="56" channel="0" position="1" id="1"/>
+    <slot nodeid="54" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="27">
+    <slot nodeid="58" channel="0" position="1" id="1"/>
+    <slot nodeid="55" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="28">
+    <slot nodeid="54" channel="1" position="1" id="3"/>
+    <slot nodeid="45" channel="0" position="2" id="4"/>
+    <point x="966" y="318" id="1"/>
+    <point x="966" y="132" id="2"/>
+    <line startid="4" endid="1"/>
+    <line startid="1" endid="2"/>
+    <line startid="2" endid="3"/>
+  </net>
+  <net id="29">
+    <slot nodeid="55" channel="1" position="1" id="2"/>
+    <slot nodeid="46" channel="0" position="2" id="3"/>
+    <point x="1002" y="348" id="1"/>
+    <line startid="3" endid="1"/>
+    <line startid="1" endid="2"/>
+  </net>
+  <net id="30">
+    <slot nodeid="45" channel="0" position="1" id="5"/>
+    <slot nodeid="3" channel="3" position="2" id="6"/>
+    <point x="102" y="132" id="1"/>
+    <point x="102" y="228" id="2"/>
+    <point x="600" y="228" id="3"/>
+    <point x="600" y="318" id="4"/>
+    <line startid="6" endid="1"/>
+    <line startid="1" endid="2"/>
+    <line startid="2" endid="3"/>
+    <line startid="3" endid="4"/>
+    <line startid="4" endid="5"/>
+  </net>
+  <net id="31">
+    <slot nodeid="46" channel="0" position="1" id="4"/>
+    <slot nodeid="3" channel="4" position="2" id="5"/>
+    <point x="66" y="240" id="1"/>
+    <point x="588" y="240" id="2"/>
+    <point x="588" y="348" id="3"/>
+    <line startid="5" endid="1"/>
+    <line startid="1" endid="2"/>
+    <line startid="2" endid="3"/>
+    <line startid="3" endid="4"/>
+  </net>
+  <net id="32">
+    <slot nodeid="41" channel="3" position="1" id="1"/>
+    <slot nodeid="39" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="33">
+    <slot nodeid="38" channel="0" position="1" id="1"/>
+    <slot nodeid="27" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="34">
+    <slot nodeid="38" channel="1" position="1" id="3"/>
+    <slot nodeid="28" channel="0" position="2" id="4"/>
+    <point x="528" y="162" id="1"/>
+    <point x="528" y="126" id="2"/>
+    <line startid="4" endid="1"/>
+    <line startid="1" endid="2"/>
+    <line startid="2" endid="3"/>
+  </net>
+  <net id="35">
+    <slot nodeid="38" channel="2" position="1" id="3"/>
+    <slot nodeid="29" channel="0" position="2" id="4"/>
+    <point x="552" y="210" id="1"/>
+    <point x="552" y="138" id="2"/>
+    <line startid="4" endid="1"/>
+    <line startid="1" endid="2"/>
+    <line startid="2" endid="3"/>
+  </net>
+  <net id="36">
+    <slot nodeid="27" channel="1" position="1" id="5"/>
+    <slot nodeid="29" channel="1" position="1" id="6"/>
+    <slot nodeid="28" channel="1" position="1" id="7"/>
+    <slot nodeid="11" channel="0" position="2" id="8"/>
+    <point x="426" y="120" id="1"/>
+    <point x="426" y="168" id="2"/>
+    <point x="426" y="216" id="3"/>
+    <point x="426" y="504" id="4"/>
+    <line startid="5" endid="1"/>
+    <line startid="1" endid="2"/>
+    <line startid="2" endid="3"/>
+    <line startid="3" endid="4"/>
+    <line startid="4" endid="8"/>
+    <line startid="6" endid="3"/>
+    <line startid="7" endid="2"/>
+  </net>
+  <net id="37">
+    <slot nodeid="11" channel="1" position="1" id="2"/>
+    <slot nodeid="5" channel="0" position="2" id="3"/>
+    <point x="66" y="504" id="1"/>
+    <line startid="3" endid="1"/>
+    <line startid="1" endid="2"/>
+  </net>
+  <net id="38">
+    <slot nodeid="11" channel="2" position="1" id="3"/>
+    <slot nodeid="6" channel="0" position="2" id="4"/>
+    <point x="84" y="618" id="1"/>
+    <point x="84" y="516" id="2"/>
+    <line startid="4" endid="1"/>
+    <line startid="1" endid="2"/>
+    <line startid="2" endid="3"/>
+  </net>
+  <net id="39">
+    <slot nodeid="11" channel="0" position="1" id="2"/>
+    <slot nodeid="4" channel="2" position="2" id="3"/>
+    <point x="138" y="378" id="1"/>
+    <line startid="3" endid="1"/>
+    <line startid="1" endid="2"/>
+  </net>
+  <net id="40">
+    <slot nodeid="41" channel="1" position="1" id="1"/>
+    <slot nodeid="35" channel="0" position="2" id="2"/>
+    <line startid="1" endid="2"/>
+  </net>
+  <net id="41">
+    <slot nodeid="41" channel="0" position="1" id="4"/>
+    <slot nodeid="4" channel="4" position="2" id="5"/>
+    <point x="678" y="576" id="1"/>
+    <point x="210" y="576" id="2"/>
+    <point x="210" y="402" id="3"/>
+    <line startid="4" endid="1"/>
+    <line startid="1" endid="2"/>
+    <line startid="2" endid="3"/>
+    <line startid="3" endid="5"/>
+  </net>
+  <net id="42">
+    <slot nodeid="49" channel="0" position="1" id="1"/>
+    <slot nodeid="42" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="43">
+    <slot nodeid="50" channel="0" position="1" id="1"/>
+    <slot nodeid="43" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="44">
+    <slot nodeid="51" channel="0" position="1" id="1"/>
+    <slot nodeid="44" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="45">
+    <slot nodeid="55" channel="0" position="1" id="1"/>
+    <slot nodeid="51" channel="0" position="2" id="2"/>
+    <line startid="1" endid="2"/>
+  </net>
+  <net id="46">
+    <slot nodeid="57" channel="0" position="1" id="1"/>
+    <slot nodeid="50" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="47">
+    <slot nodeid="54" channel="0" position="1" id="1"/>
+    <slot nodeid="49" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="48">
+    <slot nodeid="23" channel="0" position="1" id="1"/>
+    <slot nodeid="16" channel="0" position="2" id="2"/>
+    <line startid="1" endid="2"/>
+  </net>
+  <net id="49">
+    <slot nodeid="22" channel="0" position="1" id="1"/>
+    <slot nodeid="15" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="50">
+    <slot nodeid="21" channel="0" position="1" id="1"/>
+    <slot nodeid="14" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="51">
+    <slot nodeid="27" channel="0" position="1" id="1"/>
+    <slot nodeid="21" channel="0" position="2" id="2"/>
+    <line startid="1" endid="2"/>
+  </net>
+  <net id="52">
+    <slot nodeid="28" channel="0" position="1" id="1"/>
+    <slot nodeid="22" channel="0" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="53">
+    <slot nodeid="29" channel="0" position="1" id="1"/>
+    <slot nodeid="23" channel="0" position="2" id="2"/>
+    <line startid="1" endid="2"/>
+  </net>
+  <net id="54">
+    <slot nodeid="41" channel="2" position="1" id="3"/>
+    <slot nodeid="36" channel="0" position="2" id="4"/>
+    <point x="642" y="654" id="1"/>
+    <point x="642" y="618" id="2"/>
+    <line startid="4" endid="1"/>
+    <line startid="1" endid="2"/>
+    <line startid="2" endid="3"/>
+  </net>
+</model>

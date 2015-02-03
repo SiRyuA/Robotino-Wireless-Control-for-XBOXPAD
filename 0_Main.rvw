@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model type="statechart" datatips="0" gridspace="2" grid="1" sizex="2000" sizey="2000">
+  <info></info>
+  <stateblock id="5" maintype="1" subtype="0">
+    <name>2_Move_2014</name>
+    <param name="abs">D:/project/robotino/2_Move_2014.rvw</param>
+    <param name="relative">2_Move_2014.rvw</param>
+    <workspace>
+      <position x="336" y="198"/>
+    </workspace>
+  </stateblock>
+  <stateblock id="1" maintype="1" subtype="0">
+    <name>3_End-FINISH</name>
+    <param name="abs">D:/project/robotino/3_End-FINISH.rvw</param>
+    <param name="relative">3_End-FINISH.rvw</param>
+    <workspace>
+      <position x="444" y="198"/>
+    </workspace>
+  </stateblock>
+  <stateblock id="2" maintype="1" subtype="0">
+    <name>1_Ready</name>
+    <param name="abs">D:/project/robotino/1_Ready.rvw</param>
+    <param name="relative">1_Ready.rvw</param>
+    <workspace>
+      <position x="228" y="198"/>
+    </workspace>
+  </stateblock>
+  <stateblock id="3" maintype="1" subtype="0">
+    <name>2_Move</name>
+    <param name="abs">D:/project/robotino/2_Move.rvw</param>
+    <param name="relative">2_Move.rvw</param>
+    <workspace>
+      <position x="336" y="102"/>
+    </workspace>
+  </stateblock>
+  <node id="4" maintype="0" subtype="0">
+    <name>Start (11)</name>
+    <workspace>
+      <position x="48" y="198"/>
+    </workspace>
+  </node>
+  <net id="1">
+    <slot nodeid="2" channel="0" position="1" id="5"/>
+    <slot nodeid="4" channel="0" position="2" id="6"/>
+    <slot nodeid="1" channel="1" position="2" id="7"/>
+    <point x="138" y="198" id="1"/>
+    <point x="522" y="198" id="2"/>
+    <point x="522" y="246" id="3"/>
+    <point x="138" y="246" id="4"/>
+    <line startid="5" endid="1"/>
+    <line startid="1" endid="6"/>
+    <line startid="7" endid="2"/>
+    <line startid="2" endid="3"/>
+    <line startid="3" endid="4"/>
+    <line startid="4" endid="1"/>
+  </net>
+  <net id="4">
+    <slot nodeid="5" channel="0" position="1" id="1"/>
+    <slot nodeid="2" channel="1" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+  <net id="5">
+    <slot nodeid="1" channel="0" position="1" id="1"/>
+    <slot nodeid="5" channel="1" position="2" id="2"/>
+    <line startid="2" endid="1"/>
+  </net>
+</model>
